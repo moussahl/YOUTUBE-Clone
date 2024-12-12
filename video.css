@@ -1,0 +1,97 @@
+.image {
+  width: 100%;
+  display: block;
+}
+.video-title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.video-stat {
+  display: block;
+}
+.video-author {
+  display: block;
+  margin-bottom: 0px;
+}
+/*.example{
+
+
+display: inline-block;
+
+}
+*/
+
+/*---------------- this is main div--------------*/
+.video-preview {
+  vertical-align: top;
+}
+
+.video-title {
+  margin-top: 0;
+}
+
+.profile-pic {
+  width: 80%;
+  border-radius: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.video-author,
+.video-stat {
+  font-weight: 400;
+  color: #606060;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.image-row {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.grid-video {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+
+
+
+
+.video-time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+}
+
+/* media querries */
+
+@media (max-width: 750px){
+  .grid-video{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px){
+  .grid-video{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
